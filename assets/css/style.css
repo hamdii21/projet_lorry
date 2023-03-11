@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
+/*utilitaire vous pouvez l'utilisez pour vos couleurs et tout*/
+body {
+    font-family: 'Roboto', sans-serif !important;
+    background-color:#F4F3F3 !important ;
+}
+
+.logo{
+    color: #2124B1 !important;
+    font-weight: 500 !important;
+    height: 20%;
+}
+.bg-color{
+    width: 100%;
+    height:6vh;
+    background-color:#373AB9;
+}
+
+.boutton{
+    border-radius:40px !important ;
+    background-color:#373AB9 !important;
+    color: white !important;
+   
+}
+.acceuil-bg-image{
+    height: 100vh !important;
+    min-height: 500px !important;
+    background-image: url('../img/banner.jpg');
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    display: block;
+}
+
+.color-cover-cendre{
+    background-color: #000000;
+    opacity: 25%;
+}
+.cherchez{
+    border-radius:50px !important;
+    background-color:#373AB9 !important;
+    color: white;
+}
+.cherchez-un{
+    border-radius:50px !important;
+    background-color:#1E1E1E !important;
+    color: white;
+    
+}
+.image-un{
+    border-radius: 35px;
+}
+.bg-color-cover{
+    background-color: #D1D1D1;
+}
+.bg-color-cover-bleu{
+    background-color: #373AB9 !important;
+    opacity: 80% !important;
+}
+.image-deux{
+    border-radius: 35px;
+    width: 551px;
+    height: 337px;
+}
+.bouton{
+    border: 1px solid #373AB9 !important;
+    border-radius:50px !important;
+    color:  #373AB9 !important;
+}
+.bg-color-cover-bleue{
+    background-color:#373AB9 !important;
+    color: white !important;
+
+}
+.etape{
+    border-radius:30px ;
+    height: 25vh;
+}
+.carte{
+    border-radius: 30px !important;
+}
+.close{
+    border-radius:40px !important ;
+    background-color:#373AB9 !important;
+    color: white !important;
+    height: 4vh !important;
+
+
+}
+
+@media (min-width:200px) and (max-width:900px) {
+    .acceuil-bg-image {
+        height: 100vh;
+    min-height: 500px;
+    background-image: url('../img/lorry1.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    }
+    .tickets{
+        font-size: 1rem;
+
+    }
+}
+
+
+/*********service*****************************/
+.service-bg-image{
+    height: 100vh !important;
+    min-height: 500px;
+    background-image: url('../img/kara2.webp');
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !;
+    display: block;
+}
+
+.color-cover{
+    background-color: #D9D9D9 !important;
+    opacity: 50% !important;
+}
+.bg-white{
+    background-color: white !;
+}
+
+
+/***************dashboard********************/
+
+
+
+
